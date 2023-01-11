@@ -1,0 +1,8 @@
+<h2>Page Divider Component</h2>
+<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+    data-sly-use.divider="com.adobe.aem.pranathi.core.models.PageDivider"
+    data-sly-test.hasText="${properties.text}">
+    <p class="cmp_divider-text">${hasText}</p>
+    <!-- <span class="cmp-divider-image"
+        data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"></span> -->
+</sly>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Pranathi Sites Project - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge</entry>
+<entry key="dependencies-locations">pranathisites:pranathi-sites.ui.apps:0.0.1-SNAPSHOT=maven:pranathisites:pranathi-sites.ui.apps:0.0.1-SNAPSHOT:zip</entry>
+<entry key="created">2023-01-11T08:13:59.022Z</entry>
+<entry key="groupId">pranathisites</entry>
+<entry key="description">UI content package for Pranathi Sites Project</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">pranathisites:pranathi-sites.ui.apps:0.0.1-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="name">pranathi-sites.ui.content</entry>
+<entry key="artifactId">pranathi-sites.ui.content</entry>
+<entry key="group">pranathisites</entry>
+</properties>

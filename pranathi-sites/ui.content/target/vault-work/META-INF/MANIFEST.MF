@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Pranathi Sites Project - UI content
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: pranathisites:pranathi-sites.ui.content:0.0.1-SNAPSH
+ OT
+Content-Package-Description: UI content package for Pranathi Sites Proje
+ ct
+Content-Package-Dependencies: pranathisites:pranathi-sites.ui.apps:0.0.1
+ -SNAPSHOT
+Content-Package-Dependencies-Locations: pranathisites:pranathi-sites.ui.
+ apps:0.0.1-SNAPSHOT=maven:pranathisites:pranathi-sites.ui.apps:0.0.1-SN
+ APSHOT:zip
+Content-Package-Roots: /conf/pranathisites,/content/dam/pranathisites/as
+ set.jpg,/content/experience-fragments/pranathisites,/content/pranathisi
+ tes
+

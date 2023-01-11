@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/pranathisites" mode="merge"/>
+    <filter root="/content/pranathisites" mode="merge"/>
+    <filter root="/content/dam/pranathisites/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/pranathisites" mode="merge"/>
+</workspaceFilter>

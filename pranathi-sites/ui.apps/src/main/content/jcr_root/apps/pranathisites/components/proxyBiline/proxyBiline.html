@@ -1,0 +1,13 @@
+<h2>Bi-Line Component</h2>
+<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html" 
+data-sly-use.bilineModel="com.adobe.aem.pranathi.core.models.BilineModel"
+data-sly-test.hasName="${properties.name}">
+    <p>${hasName}</p>
+    <p data-sly-test="${bilineModel.personPicture}">${bilineModel.personPicture}</p>
+    <p data-sly-test="${bilineModel.jobTitle}">${bilineModel.jobTitle}</p>
+    <span class="cmp-byline__image"
+    data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"></span>
+</sly>
+
+
+<div>Completed</div>

@@ -1,0 +1,29 @@
+<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html" 
+  data-sly-use.slingExModel="com.adobe.aem.pranathi.core.models.SlingModelExampleModel"
+  data-sly-test.hasLabel="${properties.mainLabel}">
+
+  <p>Main Label: ${hasLabel}</p>
+  <p data-sly-test="${slingExModel.resourceType}">Resource Type: ${slingExModel.resourceType}</p>
+
+  <h2>'data-sly-list' Example</h2>
+  <ul data-sly-list.linklist="${slingExModel.links}">
+      <li>
+        <p data-sly-test.label="${linklist.label}">${linklist.label}</p>
+        <p data-sly-test.linkPath="${linklist.linkPath}">${linklist.linkPath}</p>
+        <p data-sly-test.external="${linklist.external}">${linklist.external}</p>
+        <p data-sly-test.target="${linklist.target}">${linklist.target}</p>
+      </li>
+  </ul>
+
+  <h2>'data-sly-repeat' Example</h2>
+  <ul data-sly-repeat.linklistRepeat="${slingExModel.links}">
+    <li>
+      <p data-sly-repeat.labelR="${linklistRepeat.label}">${labelR}</p>
+      <p data-sly-repeat.linkPathR="${linklistRepeat.linkPath}">${linkPathR}</p>
+      <p data-sly-repeat.externalR="${linklistRepeat.external}">${externalR}</p>
+      <p data-sly-repeat.targetR="${linklistRepeat.target}">${targetR}</p>
+    </li>
+</ul>
+
+</sly>
+<sly data-sly-call="${template.placeholder @ isEmpty=!text, classAppend='cmp-title'}"></sly>

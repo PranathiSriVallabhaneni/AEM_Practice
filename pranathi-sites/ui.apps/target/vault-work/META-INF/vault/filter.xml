@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/pranathisites/clientlibs"/>
+    <filter root="/apps/pranathisites/components"/>
+    <filter root="/apps/pranathisites/i18n"/>
+</workspaceFilter>

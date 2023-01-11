@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pranathi-sites.ui.config" />
+        <module name="pranathi-sites.core" />
+        <module name="pranathi-sites.ui.apps" />
+        <module name="pranathi-sites.ui.apps.structure" />
+        <module name="pranathi-sites.it.tests" />
+        <module name="pranathi-sites.ui.content" />
+        <module name="pranathi-sites.all" />
+        <module name="pranathi-sites.ui.tests" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

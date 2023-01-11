@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/pranathisites",
+        "create path (nt:unstructured) /content/dam/pranathisites/jcr:content",
+        "set properties on /content/dam/pranathisites/jcr:content\n  set cq:conf{String} to /conf/pranathisites\n  set jcr:title{String} to \"Pranathi Sites Project\"\nend"
+    ]
+}

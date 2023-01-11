@@ -1,0 +1,4 @@
+com\adobe\aem\pranathi\it\tests\CreatePageIT.class
+com\adobe\aem\pranathi\it\tests\GetPageIT.class
+com\adobe\aem\pranathi\it\tests\HtmlUnitClient.class
+com\adobe\aem\pranathi\it\tests\PublishPageValidationIT.class
