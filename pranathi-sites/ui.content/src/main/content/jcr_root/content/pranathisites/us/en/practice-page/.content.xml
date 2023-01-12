@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-01-11T13:36:49.681+05:30"
+        cq:lastModified="{Date}2023-01-12T21:56:30.218+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/pranathisites/settings/wcm/templates/practisetemplate"
         jcr:primaryType="cq:PageContent"
@@ -62,6 +62,14 @@
                             target="_blank"/>
                     </links>
                 </slingmodelsexample>
+                <customcourses
+                    jcr:created="{Date}2023-01-12T21:53:11.068+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-01-12T21:56:30.210+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pranathisites/components/customcourses"
+                    myTitle="Courses Component using Services"/>
             </container>
             <container_1879793305
                 jcr:created="{Date}2023-01-11T13:26:39.305+05:30"

@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">pranathisites:pranathi-sites.ui.apps:0.0.1-SNAPSHOT=maven:pranathisites:pranathi-sites.ui.apps:0.0.1-SNAPSHOT:zip</entry>
-<entry key="created">2023-01-11T08:13:59.022Z</entry>
+<entry key="created">2023-01-12T16:30:46.061Z</entry>
 <entry key="groupId">pranathisites</entry>
 <entry key="description">UI content package for Pranathi Sites Project</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>

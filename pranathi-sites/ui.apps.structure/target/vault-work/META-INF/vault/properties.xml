@@ -4,7 +4,7 @@
 <comment>Pranathi Sites Project - Repository Structure Package</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2023-01-11T08:13:49.812Z</entry>
+<entry key="created">2023-01-12T16:30:37.810Z</entry>
 <entry key="groupId">pranathisites</entry>
 <entry key="name">pranathi-sites.ui.apps.structure</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.

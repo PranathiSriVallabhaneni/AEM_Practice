@@ -1,6 +1,7 @@
 org\apache\sling\scripting\sightly\apps\pranathisites\components\page\customfooterlibs__002e__html.class
 org\apache\sling\scripting\sightly\apps\pranathisites\components\proxypagedivider\proxypagedivider__002e__html.class
 org\apache\sling\scripting\sightly\apps\pranathisites\components\proxytitle\proxytitle__002e__html.class
+org\apache\sling\scripting\sightly\apps\pranathisites\components\customcourses\customcourses__002e__html.class
 org\apache\sling\scripting\sightly\apps\pranathisites\components\xfpage\content__002e__html.class
 org\apache\sling\scripting\sightly\apps\pranathisites\components\xfpage\customheaderlibs__002e__html.class
 org\apache\sling\scripting\sightly\apps\pranathisites\components\xfpage\customfooterlibs__002e__html.class

@@ -8,41 +8,48 @@ Bundle-Version: 0.0.1.SNAPSHOT
 Export-Package: com.adobe.aem.pranathi.core.filters;version="1.0";uses
  :="javax.servlet",com.adobe.aem.pranathi.core.listeners;version="1.0"
  ;uses:="org.apache.sling.api.resource.observation",com.adobe.aem.pran
- athi.core.models;version="1.0";uses:="com.adobe.cq.wcm.core.component
- s.models,javax.annotation,org.apache.sling.api,org.apache.sling.api.r
- esource,org.apache.sling.models.annotations,org.apache.sling.models.a
- nnotations.injectorspecific",com.adobe.aem.pranathi.core.schedulers;v
- ersion="1.0",com.adobe.aem.pranathi.core.servlets;version="1.0";uses:
- ="javax.servlet,org.apache.sling.api,org.apache.sling.api.servlets"
+ athi.core.models;version="1.0";uses:="com.adobe.aem.pranathi.core.ser
+ vices,com.adobe.cq.wcm.core.components.models,javax.annotation,org.ap
+ ache.sling.api,org.apache.sling.api.resource,org.apache.sling.models.
+ annotations,org.apache.sling.models.annotations.injectorspecific",com
+ .adobe.aem.pranathi.core.schedulers;version="1.0",com.adobe.aem.prana
+ thi.core.services;version="1.0",com.adobe.aem.pranathi.core.servlets;
+ version="1.0";uses:="javax.servlet,org.apache.sling.api,org.apache.sl
+ ing.api.servlets"
 Import-Package: javax.annotation;version="0.0.0",com.adobe.aem.pranath
  i.core.filters;version="[1.0,2)",com.adobe.aem.pranathi.core.listener
  s;version="[1.0,2)",com.adobe.aem.pranathi.core.schedulers;version="[
- 1.0,2)",com.adobe.aem.pranathi.core.servlets;version="[1.0,2)",com.ad
- obe.cq.wcm.core.components.models;version="[12.23,13)",com.day.cq.com
- mons;version="[6.0,7)",com.day.cq.wcm.api;version="[1.29,2)",javax.se
- rvlet;version="[3.1,4)",org.apache.sling.api;version="[2.3,3)",org.ap
- ache.sling.api.request;version="[2.4,3)",org.apache.sling.api.resourc
- e;version="[2.12,3)",org.apache.sling.api.resource.observation;versio
- n="[1.2,2)",org.apache.sling.api.servlets;version="[2.3,3)",org.apach
- e.sling.models.annotations;version="[1.5,2)",org.apache.sling.models.
- annotations.injectorspecific;version="[1.1,2)",org.apache.sling.model
- s.factory;version="[1.4,2)",org.slf4j;version="[1.7,2)"
-Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
- unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
- ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
- ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
- tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
- ner";uses:="org.apache.sling.api.resource.observation"
+ 1.0,2)",com.adobe.aem.pranathi.core.services;version="[1.0,2)",com.ad
+ obe.aem.pranathi.core.servlets;version="[1.0,2)",com.adobe.cq.wcm.cor
+ e.components.models;version="[12.23,13)",com.day.cq.commons;version="
+ [6.0,7)",com.day.cq.wcm.api;version="[1.29,2)",javax.servlet;version=
+ "[3.1,4)",org.apache.sling.api;version="[2.3,3)",org.apache.sling.api
+ .request;version="[2.4,3)",org.apache.sling.api.resource;version="[2.
+ 12,3)",org.apache.sling.api.resource.observation;version="[1.2,2)",or
+ g.apache.sling.api.servlets;version="[2.3,3)",org.apache.sling.models
+ .annotations;version="[1.5,2)",org.apache.sling.models.annotations.in
+ jectorspecific;version="[1.1,2)",org.apache.sling.models.factory;vers
+ ion="[1.4,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="com.adobe.a
+ em.pranathi.core.services.ServiceDemo";uses:="com.adobe.aem.pranathi.
+ core.services",osgi.service;objectClass:List<String>="java.lang.Runna
+ ble",osgi.service;objectClass:List<String>="javax.servlet.Filter";use
+ s:="javax.servlet",osgi.service;objectClass:List<String>="javax.servl
+ et.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<Strin
+ g>="org.apache.sling.api.resource.observation.ResourceChangeListener"
+ ;uses:="org.apache.sling.api.resource.observation"
 Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
  nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
  e=JavaSE)(version=1.8))"
 Service-Component: OSGI-INF/com.adobe.aem.pranathi.core.filters.Loggin
  gFilter.xml,OSGI-INF/com.adobe.aem.pranathi.core.listeners.SimpleReso
  urceListener.xml,OSGI-INF/com.adobe.aem.pranathi.core.schedulers.Simp
- leScheduledTask.xml,OSGI-INF/com.adobe.aem.pranathi.core.servlets.Sim
- pleServlet.xml
+ leScheduledTask.xml,OSGI-INF/com.adobe.aem.pranathi.core.services.Ser
+ viceDemoImpl.xml,OSGI-INF/com.adobe.aem.pranathi.core.servlets.Simple
+ Servlet.xml
 Sling-Model-Classes: com.adobe.aem.pranathi.core.models.BilineModel,co
  m.adobe.aem.pranathi.core.models.HelloWorldModel,com.adobe.aem.pranat
  hi.core.models.LinkModel,com.adobe.aem.pranathi.core.models.PageDivid
- er,com.adobe.aem.pranathi.core.models.SlingModelExampleModel
+ er,com.adobe.aem.pranathi.core.models.ServiceDemoModel,com.adobe.aem.
+ pranathi.core.models.SlingModelExampleModel
 

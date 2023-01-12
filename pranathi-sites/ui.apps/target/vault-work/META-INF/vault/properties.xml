@@ -4,7 +4,7 @@
 <comment>Pranathi Sites Project - UI apps</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="dependencies-locations">adobe/cq60:core.wcm.components.content:2.17.12=maven:com.adobe.cq:core.wcm.components.content:2.17.12:zip,adobe/cq60:core.wcm.components.config:2.17.12=maven:com.adobe.cq:core.wcm.components.config:2.17.12:zip</entry>
-<entry key="created">2023-01-11T08:13:55.886Z</entry>
+<entry key="created">2023-01-12T16:30:42.875Z</entry>
 <entry key="groupId">pranathisites</entry>
 <entry key="description">UI apps package for Pranathi Sites Project</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>

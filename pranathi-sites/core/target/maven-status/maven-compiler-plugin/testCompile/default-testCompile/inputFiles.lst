@@ -1,6 +1,6 @@
-D:\AEM\Author\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\schedulers\SimpleScheduledTaskTest.java
-D:\AEM\Author\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\models\HelloWorldModelTest.java
-D:\AEM\Author\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\servlets\SimpleServletTest.java
-D:\AEM\Author\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\filters\LoggingFilterTest.java
-D:\AEM\Author\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\listeners\SimpleResourceListenerTest.java
-D:\AEM\Author\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\testcontext\AppAemContext.java
+D:\AEM\Projects\AEM_Practice\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\servlets\SimpleServletTest.java
+D:\AEM\Projects\AEM_Practice\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\models\HelloWorldModelTest.java
+D:\AEM\Projects\AEM_Practice\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\filters\LoggingFilterTest.java
+D:\AEM\Projects\AEM_Practice\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\schedulers\SimpleScheduledTaskTest.java
+D:\AEM\Projects\AEM_Practice\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\testcontext\AppAemContext.java
+D:\AEM\Projects\AEM_Practice\pranathi-sites\core\src\test\java\com\adobe\aem\pranathi\core\listeners\SimpleResourceListenerTest.java
