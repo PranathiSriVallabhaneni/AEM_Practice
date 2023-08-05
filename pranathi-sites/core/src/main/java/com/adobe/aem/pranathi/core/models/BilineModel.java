@@ -26,7 +26,7 @@ public class BilineModel {
     @ValueMapValue
     private Image personPicture;
 
-    @OSGiService
+    @OSGiService  //@inject
     private ModelFactory modelFactory;
 
     @Self
